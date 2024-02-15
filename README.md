@@ -6,8 +6,6 @@ https://support.api-aries.online/hc/articles/1/3/3/email-checker
 
 **Installation Steps** :
 
-Comm >> core >> modules >> front >> system >> register.php
-
 common >> Auth >> Fortify >> FortifyRegisterUser.php 
 
 now just paste the code and you should be good
