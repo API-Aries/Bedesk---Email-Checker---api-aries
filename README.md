@@ -2,7 +2,7 @@
 Bedesk - Email Checker using the api-aries endpoint
 
 **learn more about the endpoint** :
-https://support.api-aries.online/hc/articles/1/3/3/email-checker
+https://support.api-aries.com/hc/articles/1/3/3/email-checker
 
 **Installation Steps** :
 
