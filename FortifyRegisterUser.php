@@ -59,11 +59,11 @@ class FortifyRegisterUser implements CreatesNewUsers
     $ch = curl_init();
 
     // Set cURL options
-    curl_setopt($ch, CURLOPT_URL, "https://api.api-aries.online/v1/checkers/proxy/email/?email=$email");
+    curl_setopt($ch, CURLOPT_URL, "https://api.api-aries.com/v1/checkers/proxy/email/?email=$email");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, [
-        'Type: 2', // learn more: https://support.api-aries.online/hc/articles/1/3/3/email-checker
-        'APITOKEN: 111-111-111-111-111', // learn more: https://support.api-aries.online/hc/articles/1/3/3/email-checker
+        'Type: 2', // learn more: https://support.api-aries.com/hc/articles/1/3/3/email-checker
+        'APITOKEN: 111-111-111-111-111', // learn more: https://support.api-aries.com/hc/articles/1/3/3/email-checker
     ]);
 
     // Execute cURL request
